@@ -7,16 +7,16 @@ import WhitePaper from "./pages/whitepaper";
 import MyInventory from "./pages/myinventory";
 
 function App() {
-    return (
-        <div className="App">
-            <Navbar />
-            <Home />
-            <MarketPlace />
-            <Character />
-            <WhitePaper />
-            <MyInventory />
-        </div>
-    );
+  return (
+    <div className="App">
+      <Navbar />
+      <Home />
+      <MarketPlace />
+      <Character />
+      <WhitePaper />
+      <MyInventory />
+    </div>
+  );
 }
 
 export default App;
